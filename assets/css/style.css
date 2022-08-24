@@ -98,7 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
+  border-radius: 100%;
 }
 
 @media (max-width: 992px) {
@@ -331,8 +332,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Scene.jpg");
+  background: url("../img/Map4.jpg");
   position:relative;
+  background-position:center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode:color-dodge;
+  /*background-size:auto 100%;
+  /* background-repeat: no-repeat; 
+  background-color: black;*/
 }
 
 #hero .hero-container {
@@ -351,6 +358,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-logo {
   margin-bottom: 30px;
+}
+
+#logointro {
+  width:150px;
+  border-radius: 100%;
 }
 
 #hero h1 {
