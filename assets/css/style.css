@@ -1715,3 +1715,9 @@ section {
   font-size: 13px;
   padding-top: 5px;
 }
+
+.cusbtn {
+  background-color: #2f2f2f;
+  padding: 20px;
+  margin-top: 15px;
+}
